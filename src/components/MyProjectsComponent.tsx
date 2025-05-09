@@ -11,14 +11,14 @@ const MyProjectsComponent: React.FC = () => {
   const projects: Project[] = [
     {
       title: "MatchPoint - backend",
-      description: "A group project to create an app for people to find and review tennis courts in their area. We have 3 members on our team for this project, I'm the main backend guy. My main task has been structuring and sometimes resturcturing the data flow making sure we have working routes, models, and services for my other teamates use on the frontend.",
+      description: "A group project to create a fullsatck application. We have an app for people to find and review tennis courts in their area. We have 3 members on our team for this project, I'm the main backend guy. My main task has been structuring and sometimes resturcturing the data flow making sure we have working routes, models, and services for my other teamates use on the frontend. I've really enjoyed working with my team despite everything not going so perfect (as expected) its help put into perspective what having responsibility to a team feels like. It has been a challenge to be real, but I've learned a lot about routing, authorization, how to structure a bit better, and the proper use and differences between a model and dto. Even how to properly have authorized and unauthorized routes in the same controller.",
       tools: ["C#(C-Sharp)", "Github"],
       link: "https://matchpoint-three.vercel.app/"
     }, 
 
     {
         title: "Shinzui Gezoku: Rebirth",
-        description: "A closed community player-driven lore based PD(Permadeath) Naruto Shippuden game on Roblox where you load in choose a first name and are given a clan in one of the five great nations, Leaf, Sand, Cloud, Mist, Stone. You then do small quest and partake in lore events created by me and my lore team, such as global PDs(sandbox, lore, tailed beast hunt, village war, jounin and chunin exams) to progress their character in various ways. I have recently taken over the development of this game and Revamped most of the scripts, Lots of renaming things and disabling broken scripts then trying to understand the last team of devs logic and code to implement my own code as well. Join the linked Roblox community and get 'Tester' role to play.",
+        description: "A closed community player-driven lore based PD(Permadeath) Naruto Shippuden game on Roblox where you load in, choose a firstname, and are given a clan in one of the five great nations, Leaf, Sand, Cloud, Mist, or Stone. You then do small quest and partake in lore events created by me and my lore team, such as global Permadeath events(sandbox, lore, tailed beast hunt, village war, jounin and chunin exams) to progress your character in various ways. I have recently taken over the development of this game and Revamped most of the scripts, Lots of renaming things and disabling broken scripts then trying to understand the last team of devs logic and code to implement my own code as well. Despite all of that testing phase is open join the linked Roblox community and get 'Tester' role to play.",
         tools: ["Roblox Studio plugins", "Lua", "C++"],
         link: "https://www.roblox.com/communities/8364178/Shinzui-Genzoku-The-True-Origin-Clan#!/about"
     }
