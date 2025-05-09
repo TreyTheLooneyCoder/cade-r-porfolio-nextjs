@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMeComponent: React.FC = () => {
   return (
-    <section id="about" className="my-8 text-center">
+    <div id="about" className="my-8 text-center">
       <h2 className="text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-400 to-blue-600">
         🧠 About Me
       </h2>
@@ -20,7 +20,7 @@ const AboutMeComponent: React.FC = () => {
         I’m currently working on projects that combine my love for worldbuilding with programming—developing lore-rich narratives, exploring C# game logic, and scripting dynamic gameplay systems in Lua. My goal is to build unforgettable game worlds filled with meaning, mystery, and interactivity based off of stories I create.
         </p>
       </div>
-    </section>
+    </div>
   );
 };
 

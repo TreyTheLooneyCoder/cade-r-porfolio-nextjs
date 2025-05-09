@@ -13,7 +13,7 @@ const MyProjectsComponent: React.FC = () => {
       title: "MatchPoint - backend",
       description: "A group project to create an app for people to find and review tennis courts in their area. We have 3 members on our team for this project, I'm the main backend guy. My main task has been structuring and sometimes resturcturing the data flow making sure we have working routes, models, and services for my other teamates use on the frontend.",
       tools: ["C#(C-Sharp)", "Github"],
-      link: "#"
+      link: "https://matchpoint-three.vercel.app/"
     }, 
 
     {
@@ -25,7 +25,7 @@ const MyProjectsComponent: React.FC = () => {
 ];
 
 return (
-    <section id="projects" className="my-8">
+    <div id="projects" className="my-8">
       <h2 className="text-5xl font-extrabold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-green-600 to-green-800">
         🎮 Projects Arena
       </h2>
@@ -63,7 +63,7 @@ return (
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

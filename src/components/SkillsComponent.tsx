@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsComponent: React.FC = () => {
   return (
-    <section id="skills" className="my-8 text-center">
+    <div id="skills" className="my-8 text-center">
       <h2 className="text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600">
         🧰 Skill Set
       </h2>
@@ -19,7 +19,7 @@ const SkillsComponent: React.FC = () => {
           </li>
         </ul>
       </div>
-    </section>
+    </div>
   );
 };
 
